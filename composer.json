@@ -1,0 +1,20 @@
+{
+    "name": "benfurfie/edit-button-link",
+    "description": "Adds a floating button in the bottom right hand corner of the screen that allows a logged in user to quickly reach the edit screen for the current page.",
+    "type": "wordpress-muplugin",
+    "require": {
+        "php": ">=5.3.0",
+        "composer/installers": "1.5"
+    },
+    "require-dev": {
+        "php-mock/php-mock-phpunit": "2.0.0"
+    },
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Ben Furfie",
+            "email": "hello@benfurfie.co.uk"
+        }
+    ],
+    "minimum-stability": "stable"
+}

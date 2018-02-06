@@ -1,0 +1,22 @@
+.button--edit-link {
+    align-items: center;
+    background-color: #00a3e0;
+    border-radius: 100%;
+    bottom: 24px;
+    right: 24px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    padding: 10px;
+    position: absolute;
+    transition: all 250ms ease-in-out;
+    width: 40px;
+}
+.button--edit-link:hover,
+.button--edit-link:focus {
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.5);
+}
+.button--edit-link:active {
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
+}
